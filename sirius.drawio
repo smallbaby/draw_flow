@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-08T06:43:54.300Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="TIRCQ-AN2uLq-xLWeJOx" version="15.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-08T07:47:21.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="zKyO3AHkmbtksYhZhIaG" version="15.8.6" type="github">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="1186" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
         <mxCell id="BZ-TsVA_fN7d5yoJhVWp-16" value="余额扣减" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="740" y="1340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BZ-TsVA_fN7d5yoJhVWp-19" value="&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-family: , , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;roboto&amp;#34; , &amp;#34;droid sans&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(242 , 244 , 248)&quot;&gt;&lt;b&gt;GPU换算公式&lt;/b&gt;：V100 1张卡=16G ； K80 1张卡=12G&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="BZ-TsVA_fN7d5yoJhVWp-19" value="&lt;b style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; text-align: left&quot;&gt;GPU换算公式&lt;/b&gt;&lt;span style=&quot;color: rgb(23 , 26 , 29) ; font-size: 14px ; text-align: left ; background-color: rgb(242 , 244 , 248)&quot;&gt;：V100 1张卡=16G ； K80 1张卡=12G&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="707" y="970" width="340" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BZ-TsVA_fN7d5yoJhVWp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="BZ-TsVA_fN7d5yoJhVWp-20" target="BZ-TsVA_fN7d5yoJhVWp-23">
@@ -218,10 +218,16 @@
           <mxGeometry x="740" y="1410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BZ-TsVA_fN7d5yoJhVWp-27" value="预扣取消" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
-          <mxGeometry x="944.5" y="1406.25" width="95.5" height="37.5" as="geometry" />
+          <mxGeometry x="960" y="1406.25" width="95.5" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="BZ-TsVA_fN7d5yoJhVWp-30" value="每日汇总上报" style="whiteSpace=wrap;html=1;rounded=0;fontSize=14;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="1402.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BZ-TsVA_fN7d5yoJhVWp-32" value="1、按次还是按时长计费&lt;br&gt;2、一天周期运行多次的任务，如何汇总上报" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="970" width="270" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="BZ-TsVA_fN7d5yoJhVWp-33" value="问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1100" y="970" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
